@@ -1,0 +1,26 @@
+body {
+    font-family: raleway;
+    background-color: black;
+}
+
+.icono {
+    background-color: rgb(13, 196, 196);
+}
+
+.borde {
+    border-bottom: double;
+}
+
+.footer {
+    background-color: rgb(13, 196, 196);
+}
+
+.texto-footer {
+    text-transform: uppercase;
+}
+
+.footer i {
+    color: white;
+    margin-left: 5%;
+    margin-top: 0.25rem;
+}
