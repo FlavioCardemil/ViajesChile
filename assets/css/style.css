@@ -3,12 +3,37 @@ body {
     background-color: black;
 }
 
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand img {
+    width: 5%;
+    height: 5%;
+}
+
+.carousel-item {
+    max-height: 800px;
+    overflow: hidden;
+}
+
 .icono {
     background-color: rgb(13, 196, 196);
+    color: white;
 }
 
 .borde {
-    border-bottom: double;
+    border-bottom: 2px solid rgb(13, 196, 196);
+}
+
+.card {
+    border: 2px solid white;
+    background-color: rgb(13, 196, 196);
+}
+
+.card img {
+    max-height: 35%;
+    overflow: hidden;
 }
 
 .footer {
