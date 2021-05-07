@@ -1,6 +1,19 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --basic: rgb(13, 196, 196);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: raleway;
-    background-color: black;
+    background-color: var(--black);
 }
 
 .navbar {
@@ -18,17 +31,17 @@ body {
 }
 
 .icono {
-    background-color: rgb(13, 196, 196);
-    color: white;
+    background-color: var(--basic);
+    color: var(--white);
 }
 
 .borde {
-    border-bottom: 2px solid rgb(13, 196, 196);
+    border-bottom: 2px solid var(--basic);
 }
 
 .card {
-    border: 2px solid white;
-    background-color: rgb(13, 196, 196);
+    border: 2px solid var(--white);
+    background-color: var(--basic);
 }
 
 .card img {
@@ -37,15 +50,15 @@ body {
 }
 
 .footer {
-    background-color: rgb(13, 196, 196);
+    background-color: var(--basic);
 }
 
 .texto-footer {
     text-transform: uppercase;
 }
 
-.footer i {
-    color: white;
+.footer a {
+    color: var(--white);
     margin-left: 5%;
     margin-top: 0.25rem;
 }

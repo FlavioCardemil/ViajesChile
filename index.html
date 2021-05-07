@@ -20,10 +20,11 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top mx-5">
-            <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" class="mr-1" alt=""><span class="logo text-light">Viajes Chile</span></a>
+            <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" class="mr-1" alt=""><span
+                    class="logo text-light">Viajes Chile</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Inicio</a>
+                        <a class="nav-link text-light" href="#home">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#about">Quienes Somos</a>
@@ -71,7 +72,7 @@
     </header>
 
     <!-- Quienes Somos -->
-    <section class="my-5" id="about">
+    <section class="my-5 d-none d-sm-block" id="about">
         <div class="container">
             <h1 class="text-center text-light pb-5">¿Quienes Somos?</h1>
             <div class="borde"></div>
@@ -168,7 +169,25 @@
         <div class="container">
             <h1 class="text-center text-light pb-5">Contacto</h1>
             <div class="borde"></div>
-            <div class="typeform-widget" data-url="https://form.typeform.com/to/gMge6jPB?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/gMge6jPB?typeform-medium=embed-snippet"
+                style="width: 100%; height: 500px;"></div>
+            <script>
+                (function () {
+                    var qs, js, q, s, d = document,
+                        gi = d.getElementById,
+                        ce = d.createElement,
+                        gt = d.getElementsByTagName,
+                        id = "typef_orm",
+                        b = "https://embed.typeform.com/";
+                    if (!gi.call(d, id)) {
+                        js = ce.call(d, "script");
+                        js.id = id;
+                        js.src = b + "embed.js";
+                        q = gt.call(d, "script")[0];
+                        q.parentNode.insertBefore(js, q)
+                    }
+                })()
+            </script>
         </div>
     </section>
 
@@ -181,10 +200,14 @@
                         <h2 class="texto-footer text-left text-light font-weight-bold">Viajes Chile</h2>
                     </div>
                     <div class="col d-flex justify-content-end">
-                        <i class="fab fa-github-square fa-2x"></i>
-                        <i class="fab fa-linkedin fa-2x"></i>
-                        <i class="fab fa-twitter-square fa-2x"></i>
-                        <i class="fab fa-facebook-square fa-2x"></i>
+                        <a href="https://github.com/FlavioCardemil" target="_blank"><i
+                                class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://linkedin.com/in/fcardemil/" target="_blank"><i
+                                class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://twitter.com/flaviocardemil/" target="_blank"><i
+                                class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="https://facebook.com/flaviocardemil/" target="_blank"><i
+                                class="fab fa-facebook-square fa-2x"></i></a>
                     </div>
                 </div>
             </div>
